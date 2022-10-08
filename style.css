@@ -103,7 +103,6 @@ body{
 .parent-section{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
 }
 
 .article-card{
@@ -126,6 +125,7 @@ body{
 
 .ditels h3{
   font-size: 18px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .chirld-ditels{
@@ -142,5 +142,38 @@ body{
   width: 18px;
   height: 18px;
   margin-right: 10px;
-  
+}
+
+/* add footer section style  */
+
+.footer-section{
+  background-color: #161616;
+  margin-top: 130px;
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+
+.footer-section h1{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-section hr{
+  border-color:rgba(255, 255, 255, 0.4);
+}
+
+.contacke{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 130px;
+  margin-top: 50px;
+  width: 898px;
+  margin: auto;
+}
+
+.contacke a{
+  text-decoration: none;
+  color: #B9B9B9;
 }
