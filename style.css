@@ -1,0 +1,60 @@
+/* add google fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=PT+Serif:wght@700&family=Poppins:wght@700&display=swap');
+
+/* add my stylesheet  */
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-section{
+  width: 1320px;
+  
+  margin: auto;
+}
+
+.top-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #161616;
+  color: white;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.details{
+  width: 500px;
+}
+
+.details h1{
+  font-size: 70px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 80px;
+  margin-bottom: 20px;
+}
+
+.details p{
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 30px;
+}
+
+.details a{
+  font-size: 16px;
+  background-color: #DD0000;
+  padding: 16px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.thimble img{
+ width: 581px;
+ height: 613px;
+ margin-top: 80px;
+}
+
