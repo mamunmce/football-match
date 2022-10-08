@@ -12,7 +12,6 @@ body{
 
 .header-section{
   width: 1320px;
-  
   margin: auto;
 }
 
@@ -56,5 +55,46 @@ body{
  width: 581px;
  height: 613px;
  margin-top: 80px;
+}
+
+/* add nav section style  */
+
+.nav-section{
+  margin-top: 130px;
+  
+}
+
+.parent-div{
+  width: 312px;
+  height: 312px;
+  background-color: #161616;
+  border-radius: 10px;
+}
+
+.all-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all-button a{
+  text-decoration: none;
+  width: 252px;
+  margin-top: 32px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.bgg-white{
+  background-color: white;
+  color: black;
+}
+
+.bg-red{
+  background-color: #DD0000;
+  color: white;
 }
 
