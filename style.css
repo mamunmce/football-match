@@ -59,11 +59,6 @@ body{
 
 /* add nav section style  */
 
-.nav-section{
-  margin-top: 130px;
-  
-}
-
 .parent-div{
   width: 312px;
   height: 312px;
@@ -98,3 +93,54 @@ body{
   color: white;
 }
 
+/* add article section style  */
+
+.main-conten{
+  display: flex;
+  margin-top: 130px;
+}
+
+.parent-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.article-card{
+  width: 312px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px #121212;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.ditels{
+  margin: 20px;
+}
+
+.ditels button{
+  padding: 4px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ditels h3{
+  font-size: 18px;
+}
+
+.chirld-ditels{
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.other{
+  margin-left: 30px;
+}
+
+.logo img{
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  
+}
