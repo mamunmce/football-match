@@ -144,6 +144,23 @@ body{
   margin-right: 10px;
 }
 
+.tab-view{
+  display: none;
+  width: 150px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.tab-view a{
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #DD0000;
+  padding: 12px 29px;
+  border-radius: 5px;
+  color: white;
+}
+
 /* add footer section style  */
 
 .footer-section{
@@ -176,4 +193,171 @@ body{
 .contacke a{
   text-decoration: none;
   color: #B9B9B9;
+}
+
+.socel-icon{
+  display: none;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.socel-icon i{
+  margin: 20px;
+  cursor: pointer;
+}
+
+/* add tab view mediea quray  */
+
+@media only screen and (min-width:768px) and (max-width:1000px){
+  .top-section{
+    padding-left: 30px;
+  }
+
+  .header-section{
+    width: 90%;
+    margin-top: 70px;
+  }
+
+  .details{
+    width: 90%;
+  }
+
+  .details h1{
+    font-size: 50px;
+  }
+
+  .thimble img{
+    width: 90%;
+    padding-left: 5%;
+  }
+
+  .parent-div{
+    width: 100%;
+    background-color: white;
+  }
+
+  .all-button{
+    flex-direction: row;
+  }
+
+  .all-button a{
+    border: 1px solid rgba(136, 136, 136, 0.502);
+    margin: 15px;
+  }
+
+  .main-conten{
+    flex-direction: column;
+  }
+
+  .parent-section{
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    margin-top: -150px;
+  }
+
+  .other-art{
+    display: none;
+  }
+
+  .tab-view{
+    display:block;
+  }
+
+  .footer-section{
+    margin-top: 70px;
+    padding-top: 70px;
+  }
+
+  .contacke{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+   width: 85%;
+  }
+
+  .contacke a{
+   padding: 20px;
+   margin: 10px;
+  }
+}
+
+/* add mobile view mediea quray  */
+
+@media only screen and (max-width:767px) {
+  .top-section{
+    flex-direction: column;
+  }
+
+  .header-section{
+    width: 90%;
+    margin-top: 24px;
+  }
+
+  .details{
+    width: 70%;
+  }
+
+  .details h1{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .thimble img{
+    width: 90%;
+    padding-left: 5%;
+  }
+
+  .details p{
+    text-align: center;
+  }
+
+  .details a{
+    margin-left: 25%;
+  }
+
+  .nav-section{
+    margin: auto;
+  }
+
+  .parent-div{
+    width: 100%;
+    background-color: white;
+  }
+
+  .all-button a{
+    border: 1px solid rgba(136, 136, 136, 0.502);
+  }
+
+  .main-conten{
+    flex-direction: column;
+  }
+
+  .parent-section{
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+  }
+
+  .footer-section{
+    margin-top: 30px;
+    padding-top: 24px;
+   
+  }
+
+  .contacke{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .contacke a{
+    margin-top: 50px;
+  }
+
+  .ellipsis{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
 }
