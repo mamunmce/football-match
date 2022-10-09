@@ -360,4 +360,8 @@ body{
     overflow: hidden;
     text-overflow: ellipsis; 
   }
+
+  .socel-icon{
+    display: block;
+  }
 }
